@@ -3,7 +3,7 @@ class School
   def initialize (name)
     ROSTER = {}
   end
-  def add_student(student,grade)
-    ROSTER << {@student,@grade}
-  end 
+  # def add_student(student,grade)
+  #   ROSTER << {@student,@grade}
+  # end
 end
