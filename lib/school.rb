@@ -10,5 +10,7 @@ class School
   def grade(grade)
     @roster.fetch(grade)
   end
+  def sort
+    @roster.sort_by {|k, v| v}
 
 end
