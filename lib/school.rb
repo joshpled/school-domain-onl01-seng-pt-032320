@@ -8,7 +8,7 @@ class School
     @roster[grade] << student
   end
   def grade(grade)
-    @roster.values_at(grade)
+    puts @roster.values_at(grade)
   end
 
 end
