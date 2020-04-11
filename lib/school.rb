@@ -7,4 +7,7 @@ class School
     @roster[grade] = [] unless @roster.include? grade
     @roster[grade] << student
   end
+  def grade(grade)
+    @roster.values_at(grade)
+
 end
