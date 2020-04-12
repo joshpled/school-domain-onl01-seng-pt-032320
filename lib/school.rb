@@ -12,7 +12,7 @@ class School
   end
   def sort
     @roster.each do |grade, students|
-      @roster[grade].each |students|
+      @roster[grade].each do |students|
       students.sort
     end
       end
