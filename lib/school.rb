@@ -13,8 +13,8 @@ class School
   def sort
     @roster.each do |grade, students|
       @roster[grade] = students
-      @roster
     end
+    @roster
   end
 
 end
