@@ -11,11 +11,11 @@ class School
     @roster.fetch(grade)
   end
   def sort
-    @roster.each do |k, v|
-  k.each do |v|
-    v.sort
+    @roster.each do |grade, students|
+      @roster{grade}.each |students|
+      students.sort
+    end 
+      end
   end
-end
-end
 
 end
