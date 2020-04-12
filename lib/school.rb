@@ -11,7 +11,11 @@ class School
     @roster.fetch(grade)
   end
   def sort
-    @roster.sort_by {|k, v| v}
+    @roster.each do |k, v|
+  k.each do |v|
+    v.sort
   end
+end
+end
 
 end
